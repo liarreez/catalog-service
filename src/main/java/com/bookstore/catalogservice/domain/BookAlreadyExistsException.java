@@ -2,6 +2,6 @@ package com.bookstore.catalogservice.domain;
 
 public class BookAlreadyExistsException extends RuntimeException {
     public BookAlreadyExistsException(String isbn) {
-        super("A book with ISBN " + isbn + " already exist.");
+        super("A book with ISBN " + isbn + " already exist");
     }
 }
